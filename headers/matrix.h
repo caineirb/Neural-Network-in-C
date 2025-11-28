@@ -2,7 +2,6 @@
     Matrix structure and functions declaration.
 */
 
-#pragma once
 #ifndef MATRIX_H
 #define MATRIX_H
 

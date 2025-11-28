@@ -66,7 +66,7 @@ void save_matrix(Matrix* m, char* file_location) {
 }
 
 Matrix* load_matrix(char* file_location) {
-    FILE* load_file = fopen(file_location, "w");
+    FILE* load_file = fopen(file_location, "r");
     char line[MAXCHAR];
     fgets(line, MAXCHAR, load_file);
     int rows = atoi(line);

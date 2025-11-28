@@ -4,6 +4,7 @@
 #include "string.h"
 
 #define MAXCHAR 10000
+//These are based on the mnist dataset which have 28x28 image size
 #define IMAGE_ROWS 28
 #define IMAGE_COLUMNS 28
 
